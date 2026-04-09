@@ -90,6 +90,10 @@ body {
   letter-spacing: 0.1rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.container .social-buttons .social-buttons-button:active {
+  background-color: #c4f82a;
+  color: #000;
+}
 @media (hover: hover) and (pointer: fine) {
   .container .social-buttons .social-buttons-button:hover {
     background-color: #c4f82a;
