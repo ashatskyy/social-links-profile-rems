@@ -3,7 +3,8 @@
   src: url("./assets/fonts/static/Inter-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  // font-display: swap;
+	font-display: block;
 }
 
 @font-face {
@@ -11,15 +12,18 @@
   src: url("./assets/fonts/static/Inter-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  // font-display: swap;
+  font-display: block;
+	
 }
 
 @font-face {
-  font-family: "Inter";
+	font-family: "Inter";
   src: url("./assets/fonts/static/Inter-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  // font-display: swap;
+	font-display: block;
 }
 
 * {
