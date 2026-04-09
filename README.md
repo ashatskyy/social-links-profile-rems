@@ -7,8 +7,8 @@ Fully responsive layout of social links profile. Pixel-perfect (rems) implementa
 
 ## Features
 - Responsive design: works seamlessly on desktop, tablet, and mobile devices
-- Renders correctly: across all modern browsers
-- Use only rems
+- Cross-browser compatibility: renders correctly across all modern browsers
+- Uses only rem units for better scalability and adaptability across browsers
 
 ## Technologies
 - HTML
