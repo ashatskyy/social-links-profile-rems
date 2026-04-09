@@ -101,10 +101,16 @@ body {
         background-color 0.3s ease,
         color 0.3s ease;
 
-      &:hover {
+      // &:hover {
+      //   background-color: #c4f82a;
+      //   color: #000;
+      // }
+    }
+	@media (hover: hover) and (pointer: fine) {
+		  .social-buttons-button:hover {
         background-color: #c4f82a;
         color: #000;
       }
-    }
+		}
   }
 }
