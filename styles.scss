@@ -98,14 +98,15 @@ body {
     letter-spacing: 0.05rem;
 		    line-height: 1.5;
   }
-  .social-buttons {
+  .social-links {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 1.6rem;
 
-    .social-buttons-button {
-      font-family: inherit;
+    .social-links-link {
+  text-align: center;
+	 text-decoration: none;
       border: none;
       outline: none;
       background: none;
@@ -131,7 +132,7 @@ body {
       }
     }
     @media (hover: hover) and (pointer: fine) {
-      .social-buttons-button:hover {
+      .social-links-link:hover {
         background-color: #c4f82a;
         color: #000;
       }

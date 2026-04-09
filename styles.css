@@ -87,14 +87,15 @@ body {
   letter-spacing: 0.05rem;
   line-height: 1.5;
 }
-.container .social-buttons {
+.container .social-links {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 1.6rem;
 }
-.container .social-buttons .social-buttons-button {
-  font-family: inherit;
+.container .social-links .social-links-link {
+  text-align: center;
+  text-decoration: none;
   border: none;
   outline: none;
   background: none;
@@ -110,12 +111,12 @@ body {
   letter-spacing: 0.1rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.container .social-buttons .social-buttons-button:active {
+.container .social-links .social-links-link:active {
   background-color: #c4f82a;
   color: #000;
 }
 @media (hover: hover) and (pointer: fine) {
-  .container .social-buttons .social-buttons-button:hover {
+  .container .social-links .social-links-link:hover {
     background-color: #c4f82a;
     color: #000;
   }
